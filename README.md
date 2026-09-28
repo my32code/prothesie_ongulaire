@@ -29,6 +29,8 @@ Le contrôle couvre les liens locaux, les ancres, les images, les largeurs 360/7
 - Adresse, horaires, tarifs et durées. Aucun tarif ni avis client n'a été inventé.
 - La carte lance une recherche du quartier, pas un point GPS vérifié de l'institut.
 - Relire les descriptions de prestations avec l'équipe.
+- Le numéro spécifique de B-Sy Crochet (`+229 01 61 17 57 82`) provient de l’affiche fournie, conservée dans `images/b-sy-crochet.jpg`. Les contacts historiques de l’institut sont inchangés.
+- Le coaching est présenté pour les concours Miss et événements de beauté ; les modalités doivent être définies avec la cliente, sans programme ou résultats garantis annoncés.
 - Une fois le domaine public connu, ajouter les URL canoniques, le sitemap et les métadonnées de partage complètes.
 
 Base graphique : [Editorial / HTML5 UP](https://html5up.net), attribution conservée dans le pied de page et les sources.

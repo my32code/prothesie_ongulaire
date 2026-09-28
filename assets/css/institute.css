@@ -73,6 +73,29 @@ body.institute { background: var(--paper); color: var(--ink); font: 16px/1.75 Ar
 .services-showcase .service-preview article > a { display: block; margin-top: auto; padding: 14px 16px; background: var(--accent); color: white !important; border-radius: 4px; line-height: 1.5; }
 .services-showcase .service-preview article > a:hover { background: #663028; }
 .services-showcase .section-heading > a:focus-visible { outline-color: #fff8ef; }
+.activity-nav { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 40px; }
+.activity-nav a { padding: 12px 18px; background: #f0e2d8; border: 1px solid #d7b6a6; border-radius: 5px; font-size: 14px; font-weight: bold; }
+.activity-nav a:hover { background: #e5cdbf; }
+.activity-section { scroll-margin-top: 24px; margin-bottom: 48px; }
+.activity-section > .section-heading { border-bottom: 1px solid var(--line); padding-bottom: 24px; }
+.crochet-section { display: grid; grid-template-columns: 1.1fr 1fr; align-items: center; gap: 44px; padding: 40px; background: #f1e8d5; border: 1px solid #d5be91; border-radius: 12px; }
+.institute .crochet-section h2 { font-size: clamp(2.4rem, 4vw, 3.5rem); }
+.creation-list { display: grid; gap: 10px; margin-bottom: 28px; }
+.creation-list li { padding-left: 6px; }
+.crochet-poster { margin: 0; }
+.crochet-poster img { display: block; width: 100%; height: auto; border-radius: 5px; }
+.crochet-poster figcaption { font-size: 12px; color: var(--muted); padding-top: 10px; }
+.institute .activity-note { font-size: 13px; margin: 20px 0 0; }
+.activity-note a { text-decoration: underline; text-underline-offset: 3px; }
+.coaching-section { display: grid; grid-template-columns: 1.3fr 1fr; gap: 44px; padding: 40px; background: #572c28; border-radius: 12px; color: #fff8ef; align-items: center; }
+.institute .coaching-section h2 { color: #fff8ef; }
+.institute .coaching-section .eyebrow { color: #efc8b7; }
+.coaching-brief { padding: 28px; border-radius: 8px; background: var(--paper); color: var(--ink); }
+.coaching-brief ol { padding-left: 20px; }
+.coaching-brief li { margin-bottom: 14px; }
+.coaching-brief p { color: var(--muted); font-size: 13px; }
+.institute .coaching-section .button.primary { background: #fff8ef; color: #572c28 !important; }
+.coaching-section .button:focus-visible { outline-color: #fff8ef; }
 .gallery-item > span { display: flex; justify-content: space-between; padding: 12px 0 20px; font-size: 12px; }
 .gallery-more { padding: 24px 0 12px; text-align: center; }
 .about-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
@@ -93,6 +116,9 @@ body.institute { background: var(--paper); color: var(--ink); font: 16px/1.75 Ar
   .contact-panel { gap: 35px; padding: 35px; }
 }
 @media (max-width: 700px) {
+  .crochet-section, .coaching-section { grid-template-columns: 1fr; padding: 26px 20px; gap: 28px; }
+  .activity-nav { flex-direction: column; }
+  .coaching-brief { padding: 22px; }
   .services-showcase.section-block { padding: 26px 18px; margin-bottom: 36px; }
   .services-showcase .service-preview article { padding: 24px; }
   .site-shell { width: calc(100% - 36px); }
